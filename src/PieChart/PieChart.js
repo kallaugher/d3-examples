@@ -20,7 +20,7 @@ class PieChart extends PureComponent {
 				<Arc
 					key={`${d.data.label}-arc`}
 					data={d}
-					innerRadius={0}
+					innerRadius={50}
 					outerRadius={200}
 					color={this.colors[i]}
 				/>
@@ -36,7 +36,6 @@ class PieChart extends PureComponent {
 				height={500}
 			>
 				{this.renderArc}
-				{this.renderLegend}
 			</svg>
 		)
 	}

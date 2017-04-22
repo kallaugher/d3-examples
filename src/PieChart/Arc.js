@@ -8,7 +8,7 @@ class Arc extends PureComponent {
 	}
 
 	componentWillMount() {
-		this.arc.innerRadius(0)
+		this.arc.innerRadius(50)
 		this.arc.outerRadius(this.props.outerRadius)
 	}
 

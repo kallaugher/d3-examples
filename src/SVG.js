@@ -4,7 +4,7 @@ const SVG = () => (
 			// values are min x,y coordinates followed by width and height
 
 	<svg height={500} width={700} style={{ border: '1px solid black' }} >
-		<g transform="scale(1)">
+		<g transform="translate(0, 0) scale(2)">
 			<rect
 				fill="#5A7BDD"
 				x="0"
@@ -28,7 +28,7 @@ const SVG = () => (
 				x2="310"
 				y2="10"
 				stroke="#0F1C3F"
-				strokeWidth="10"
+				strokeWidth="5"
 				strokeLinecap="round"
 			/>
 
@@ -43,7 +43,7 @@ const SVG = () => (
 				fill="none"
 				d="M 120 190 c 0 -100 200 -100 200 0"
 				stroke="#5A7BDD"
-				strokeWidth="10"
+				strokeWidth="5"
 				strokeLinecap="round"
 			/>
 		</g>

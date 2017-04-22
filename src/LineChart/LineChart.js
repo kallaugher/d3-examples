@@ -35,7 +35,7 @@ class LineChart extends PureComponent {
 		const xScale = this.xScale
 
 		const path = d3
-			.line().curve(d3.curveLinear)
+			.line().curve(d3.curveCardinal)
 			.x(d => xScale(d.x))
 			.y(d => yScale(d.y))
 

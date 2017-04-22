@@ -7,13 +7,11 @@ import LineChart from './LineChart/LineChart'
 import PieChart from './PieChart/PieChart'
 import Scatter from './Scatter/Scatter'
 
-import styles from './styles.css'
-
 ReactDOM.render((
 	<Router>
 		<div>
 
-			<ul className={styles.link}>
+			<ul className="link">
 				<li><Link to="/">SVG</Link></li>
 				<li><Link to="/line">Line</Link></li>
 				<li><Link to="/pie">Pie</Link></li>
